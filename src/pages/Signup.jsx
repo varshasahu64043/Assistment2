@@ -1,7 +1,7 @@
 import React from 'react';
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 import { getDatabase, ref, set } from 'firebase/database';
-import { app } from "../firebase";
+import { app } from "../../firebase";
 import { useNavigate } from 'react-router-dom';
 
 const auth = getAuth(app);

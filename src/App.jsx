@@ -5,7 +5,7 @@ import Signup from './pages/Signup';
 import { onValue } from "firebase/database";
 // import Login from './pages/Login'; // Make sure this file exists
 import { getDatabase, ref, set } from 'firebase/database';
-import { app } from "./firebase";
+import { app } from "../firebase";
 
 const db = getDatabase(app);
 
