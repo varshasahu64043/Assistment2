@@ -4,7 +4,7 @@ import ViewItems from './pages/ViewItems';
 import Signup from './pages/Signup';
 import { onValue } from "firebase/database";
 // import Login from './pages/Login'; // Make sure this file exists
-import { getDatabase, ref, set } from 'firebase/database';
+import { getDatabase, ref } from 'firebase/database';
 import { app } from "../firebase";
 
 const db = getDatabase(app);
